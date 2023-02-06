@@ -68,8 +68,7 @@ table, th, td {
 
 ol {
     text-align: justify;
-    list-style: inside;
-    list-style-type: none;
+    list-style: lower-roman;
 }
 
 .table{
@@ -79,7 +78,7 @@ ol {
 
 .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     gap: 5px;
