@@ -1,0 +1,108 @@
+h1 {
+    color: black; 
+    text-align: center;
+    text-shadow: 3px 3px 6px red;
+    font-size: 48px;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 36px;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+main {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    padding: 15px;
+}
+
+img {
+    border: 5px solid black;
+}
+
+img:hover{
+    transform: rotate(360deg);
+    transition: all 1s ease-in;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    background-color:lightgrey;
+    border: 2px solid black;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+}
+
+li a:hover {
+    background-color: black;
+    color: purple;
+
+}
+
+table, th, td {
+    border: 3px solid black;
+    padding: 3px 3px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+}
+
+ol {
+    text-align: justify;
+    list-style: inside;
+    list-style-type: none;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+ol > li {
+    font-size: 24px;
+    text-align: left;
+}
+
+#quote {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body {
+    background-image: url(backgroundlogo.png);
+    background-position-x: center;
+}
+
+header {
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
